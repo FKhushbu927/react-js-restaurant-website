@@ -3,6 +3,8 @@ import Banner from './Banner'
 import Category from './Category'
 import Banner2 from './Banner2'
 import PopularMenu from './PopularMenu'
+import Recommended from './Recommended'
+import Featured from './Featured'
 
 const Home = () => {
 
@@ -12,6 +14,8 @@ const Home = () => {
          <Category />
          <Banner2 />
          <PopularMenu />
+         <Recommended />
+         <Featured />
      </div>
   ) 
 }
