@@ -20,7 +20,9 @@ const Recommended = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title justify-center">{item?.name}</h2>
-              <p className="text-center text-sm text-slate-500 font-medium">{item?.recipe}</p>
+              <p className="text-center text-sm text-slate-500 font-medium">
+                {item?.recipe}
+              </p>
 
               <div className="card-actions justify-center">
                 <button className="uppercase btn btn-primary">

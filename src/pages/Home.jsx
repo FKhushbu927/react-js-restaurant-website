@@ -5,6 +5,7 @@ import Banner2 from './Banner2'
 import PopularMenu from './PopularMenu'
 import Recommended from './Recommended'
 import Featured from './Featured'
+import Testimonial from './Testimonial'
 
 const Home = () => {
 
@@ -16,6 +17,7 @@ const Home = () => {
          <PopularMenu />
          <Recommended />
          <Featured />
+         <Testimonial />
      </div>
   ) 
 }

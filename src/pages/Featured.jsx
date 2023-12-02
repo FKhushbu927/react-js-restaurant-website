@@ -1,7 +1,6 @@
 import React from "react";
 import SectionTitle from "./SharedPages/SectionTitle";
 import featuredImg from "../../src/assets/featured.jpg";
-// import imgg from '../../src/assets/featuredimg.jpg'
 import './featured.css';
 
 const Featured = () => {

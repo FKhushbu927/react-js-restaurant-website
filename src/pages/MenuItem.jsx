@@ -11,7 +11,7 @@ const MenuItem = ({ item }) => {
         className="w-[180px] "
       />
 
-      <div className="bg-green-300 flex flex-col justify-start items-start ">
+      <div className="flex flex-col justify-start items-start ">
         <h3 className="uppercase my-2">{name}------</h3>
         <p>{recipe}</p>
       </div>

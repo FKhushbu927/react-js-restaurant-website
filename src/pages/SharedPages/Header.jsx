@@ -8,19 +8,22 @@ const Header = () => {
       </li>
       <li tabIndex={0}>
         <details>
-          <summary>Parent</summary>
+          <summary>Our Menu</summary>
           <ul className="p-2">
             <li>
-              <a>Submenu 1</a>
+              <a>Menu 1</a>
             </li>
             <li>
-              <a>Submenu 2</a>
+              <a>Menu 2</a>
             </li>
           </ul>
         </details>
       </li>
       <li>
         <a>Dashboard</a>
+      </li>
+      <li>
+        <a>Our Shop</a>
       </li>
       <li>
         <a>Contact Us</a>
@@ -59,7 +62,7 @@ const Header = () => {
           <a className="btn btn-ghost text-xl "> <span className="text-3xl font-extrabold text-red-700">MAK</span> RESTAURANT</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 uppercase">
             {navOptions}
           </ul>
         </div>
